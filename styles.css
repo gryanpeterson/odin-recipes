@@ -1,0 +1,77 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+img {
+    border-radius: 10%;
+    -webkit-box-shadow: 10px 4px 50px 5px rgba(0,0,0,0.95); 
+box-shadow: 10px 4px 50px 5px rgba(0,0,0,0.95);
+}
+
+.recipeimg {
+    margin-top: 5%;
+   display: flex;
+   justify-content: center;
+   
+}
+
+body {
+    background-color:lightgrey;
+}
+
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.ingredients {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 25%;
+    background-color: white;
+    border-radius: 10%;
+    border-style: outset;
+    padding: 15px;
+}
+
+.instructions {
+    margin-top: 2%;
+    display: flex;
+    justify-content:flex-end;
+    align-self: center;
+    width: 25%;
+    background-color: white;
+    border-style: outset;
+    border-radius: 10%;
+    padding: 15px;
+
+}
+
+.indexlinks {
+    margin-top: 10%;
+    display: flex;
+    justify-content:space-around;
+}
+
+
